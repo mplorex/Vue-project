@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Australia Page</h1>
+        <h1>Sign in/up</h1>
     </div>
 </template>
 <script>

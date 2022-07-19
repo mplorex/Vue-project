@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <router-link to="/brazil">Brazil</router-link>
-    <router-link to="/australia">Australia</router-link>
+    <router-link to="/login">Login/Signup</router-link>
     <router-link to="/egypt">Egypt</router-link>
     <router-link to="/france">France</router-link>
     <div class="container">

@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import Brazil from '@/views/BrazilView.vue'
-import Australia from '@/views/AustraliaView.vue'
+import loginSignup from '@/views/loginSignup.vue'
 import Egypt from '@/views/EgyptView.vue'
 import France from '@/views/FranceView.vue'
 
@@ -22,8 +22,8 @@ const routes = [
     component: Brazil
   },
   {
-    path: '/australia',
-    component: Australia
+    path: '/loginSignup',
+    component: loginSignup
   },
   {
     path: '/egypt',
