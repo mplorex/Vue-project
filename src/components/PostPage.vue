@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="postBody">
     <h3>{{ title }}</h3>
     <p>{{ body}}</p>
 </div>
@@ -13,3 +13,11 @@ export default {
   }
 }
 </script>
+
+<style>
+.postBody {
+  display: flex;
+  align-items: center;
+}
+
+</style>
