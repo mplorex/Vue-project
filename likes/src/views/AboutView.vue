@@ -1,14 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-  <div class="counter">
+    <div class="counter">
       {{storeCounter.count}}
     </div>
     <div class="buttons">
       <button @click="storeCounter.decreaseCount">-</button>
       <button @click="storeCounter.increaseCount">+</button>
     </div>
+  </div>
 </template>
 
 <script setup>
@@ -28,11 +27,9 @@ const decreaseCount = () => {
 </script>
 
 <style>
-@media (min-width: 1024px) {
   .about {
     min-height: 100vh;
     display: flex;
     align-items: center;
   }
-}
 </style>

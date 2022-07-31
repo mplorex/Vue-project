@@ -25,13 +25,12 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style scoped>
-.app {
-  display: flex;
-  
-}
 header {
   line-height: 1.5;
-  max-height: 100vh;
+  max-height: 30vh;
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 150px 0px 0px;
 }
 
 .logo {
@@ -40,10 +39,11 @@ header {
 }
 
 nav {
-  width: 100%;
   font-size: 12px;
   text-align: center;
+  display: flex;
   margin-top: 2rem;
+  background-color: tan;
 }
 
 nav a.router-link-exact-active {
@@ -58,6 +58,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  color: aqua;
 }
 
 nav a:first-of-type {

@@ -3,7 +3,16 @@ import TheWelcome from "@/components/TheWelcome.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Div class="home">
+    <main>
+      <TheWelcome/>
+    </main>
+  </Div>
 </template>
+
+<style>
+.home {
+  display: flex;
+  align-items: center;
+}
+</style>
