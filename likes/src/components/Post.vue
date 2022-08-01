@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="Post">
     <h3>{{ title }}</h3>
     <p>{{ body }}</p>
 </div>

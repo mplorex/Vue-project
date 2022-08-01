@@ -1,11 +1,6 @@
 <template>
-  <Div class="home">
-    <main>
-      <TheWelcome/>
-    </main>
-  </Div>
   <div id="app">
-    <form>
+    <form @submit.prevent="createPost">
       <label>Title</label>
       <input type="text" v-model="title">
       <label>Body</label>
@@ -51,9 +46,7 @@ export default {
 </script>
 
 <style>
-.home {
-  min-height: 100vh;
-    display: flex;
-    align-items: center;
+#app {
+  color: aqua;
 }
 </style>
