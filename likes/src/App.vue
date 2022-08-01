@@ -11,9 +11,7 @@ import { RouterLink, RouterView } from "vue-router";
       width="125"
       height="125"
     />
-
     <div class="wrapper">
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -29,9 +27,14 @@ import { RouterLink, RouterView } from "vue-router";
 header {
   line-height: 1.5;
   max-height: 30vh;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   margin: 30px 150px 0px 0px;
+}
+.app {
+  display: flex;
+  flex-flow: column;
 }
 
 .logo {
