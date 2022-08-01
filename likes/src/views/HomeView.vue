@@ -8,11 +8,37 @@ import TheWelcome from "@/components/TheWelcome.vue";
       <TheWelcome/>
     </main>
   </Div>
+  <div id="app">
+    <div v-for="(post, index) in posts" :key="index">
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.body }}</p>
+    </div>
+  </div>
 </template>
+
+<script>
+
+export default {
+  name: 'App',
+  components: {
+  
+  },
+  data: () => ({
+    posts: [
+      {
+        title: 'post 1',
+        body: 'This is a test'
+      }
+    ]
+  }) 
+}
+
+</script>
 
 <style>
 .home {
-  display: flex;
-  align-items: center;
+  min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 </style>
